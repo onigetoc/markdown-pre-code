@@ -16,4 +16,4 @@ function markdownToCode(text, format) {
 }
 
 // module.exports = transformMarkdown;
-module.exports = markdownToCode ;
+// module.exports = markdownToCode ;
