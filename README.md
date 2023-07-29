@@ -4,8 +4,8 @@ Transform triple backtick to code.
 ## Insert in project
 
 ```javascript
-import transformMarkdown from './transform.js';
-//markdownToCode = require('markdownToCode');
+import markdownToCode from 'markdown-pre-code';
+//const markdownToCode = require('markdown-pre-code');
 ```
 
 ## Basic Usage
@@ -15,7 +15,7 @@ Create <pre> or <code> or <code><pre> around triple backtick: ```
 ```
 
 ```javascript
-const Example_Text_Markdown = "Voici un exemple de code:\n```javascript\nconsole.log('Hello, World!');\n```";
+const Example_Text_Markdown = "Here un example de code:\n```javascript\nconsole.log('Hello, World!');\n```";
 ```
 
 ```javascript
@@ -34,7 +34,7 @@ console.log("Option 'code-pre':", resultatCodePre);  // <code><pre>javascript co
 ```
 
 
-[![Npm package version](https://badgen.net/npm/v/virtual-storage)](https://www.npmjs.com/package/virtual-storage)
+[![Npm package version](https://badgen.net/npm/v/https://www.npmjs.com/package/markdown-pre-code)](https://www.npmjs.com/package/virtual-storage)
 
 [Test on Runkit](https://runkit.com/onigetoc/5e43f1d10888310014d63d5d)
 
