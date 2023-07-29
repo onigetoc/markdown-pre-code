@@ -34,10 +34,10 @@ console.log("Option 'code-pre':", resultatCodePre);  // <code><pre>javascript co
 ```
 
 
-[![Npm package version](https://badgen.net/npm/v/https://www.npmjs.com/package/markdown-pre-code)](https://www.npmjs.com/package/virtual-storage)
+[![Npm package version](https://badgen.net/npm/v/https://www.npmjs.com/package/markdown-pre-code)](https://www.npmjs.com/package/markdown-pre-code)
 
 [Test on Runkit](https://runkit.com/onigetoc/5e43f1d10888310014d63d5d)
 
-[Runkit Demo](https://runkit.com/onigetoc/virtual-storage-by-gc)
+[Runkit Demo](https://runkit.com/onigetoc/markdown-pre-code)
 
 [Js fiddle Example](https://jsfiddle.net/onigetoc/jzbuve15/)
