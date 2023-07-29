@@ -16,7 +16,6 @@
     "backtick-to-code"
   ],
   "author": "Gino Cote - onigetoc  (https://softplug.com/)",
-  "@license": "ISC",
   "license": "MIT",
   "engines": {
     "node": ">=16.0.0"
