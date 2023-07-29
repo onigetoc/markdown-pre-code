@@ -16,7 +16,8 @@
     "backtick-to-code"
   ],
   "author": "Gino Cote <ginocote@gmail.com>",
-  "license": "ISC",
+  "@license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@types/node": "^18.0.6",
     "@codemirror": "^6.65.7"
