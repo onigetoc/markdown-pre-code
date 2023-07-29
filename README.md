@@ -1,4 +1,4 @@
-# Markdown-Pre-Code
+# Markdown Pre Code
 Transform triple backtick to code.
 
 ## Insert in project

@@ -1,3 +1,17 @@
+/*! markdown-pre-code 1.0.5 | ISC */
+// 'use strict';
+
+/**
+ * Markdown Pre Code
+ * @param {string} name
+ * @param {object} [{title:'Title 1', description:'Descriptions 1'}]
+ * @return {string}
+ */
+
+module.exports = markdownPreCode() ;
+
+console.log('IMPORT EXPORT OK');
+
 function markdownToCode(text, format) {
   const regex = /```([\s\S]*?)```/g;
   let transformedText = text.replace(regex, (match, codeBlock) => {
@@ -15,5 +29,4 @@ function markdownToCode(text, format) {
   return transformedText;
 }
 
-// module.exports = transformMarkdown;
 // module.exports = markdownToCode ;
