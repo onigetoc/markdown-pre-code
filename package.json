@@ -7,11 +7,18 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+   "keywords": [
+    "markdown",
+    "node",
+    "code",
+    "chat-gpt",
+    "chatgpt",
+    "backtick-to-code"
+  ],
+  "author": "Gino Cote <ginocote@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "@types/node": "^18.0.6",
-    "node-fetch": "^3.2.6"
+    "@codemirror": "^6.65.7"
   }
 }
