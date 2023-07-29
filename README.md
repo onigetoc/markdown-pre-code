@@ -1,33 +1,34 @@
 # Markdown-To-Code
 Transform triple backtick to code.
 
-# virtual-storage
-Virtual Storage (node) for those who do not have access to localStorage like Dialogflow to create project like Google home, Google hub or any projects. If your project do not have access to localStorage or for simple projects to store data, for a web app ect.
-It's based on some simple javascript cookies or localStrorage libraries.
-
 ## Insert in project
 
 ```javascript
-markdownToCode = require('markdownToCode');
-```
-OR
-```javascript
 import transformMarkdown from './transform.js';
+//markdownToCode = require('markdownToCode');
 ```
 
 ## Basic Usage
 
+```html
 Create <pre> or <code> or <code><pre> around triple backtick: ```
+```
 
 ```javascript
 const Example_Text_Markdown = "Voici un exemple de code:\n```javascript\nconsole.log('Hello, World!');\n```";
+```
 
+```javascript
 const resultatCode = markdownToCode(Example_Text_Markdown, 'code');
 console.log("Option 'code':", resultatCode); // <code>javascript console.log('Hello, World!');</code>
+```
 
+```javascript
 const resultatPre = markdownToCode(Example_Text_Markdown, 'pre');
 console.log("Option 'pre':", resultatPre); // <pre>javascript console.log('Hello, World!');</pre>
+```
 
+```javascript
 const resultatCodePre = markdownToCode(Example_Text_Markdown, 'code-pre');
 console.log("Option 'code-pre':", resultatCodePre);  // <code><pre>javascript console.log('Hello, World!');</pre></code>
 ```
