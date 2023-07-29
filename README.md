@@ -36,7 +36,7 @@ console.log("Option 'code-pre':", resultatCodePre);  // <code><pre>javascript co
 
 [![Npm package version](https://badgen.net/npm/v/https://www.npmjs.com/package/markdown-pre-code)](https://www.npmjs.com/package/markdown-pre-code)
 
-[Test on Runkit](https://runkit.com/onigetoc/5e43f1d10888310014d63d5d)
+[Test on Runkit](https://runkit.com/onigetoc/64c49ea2877428000809f9a8)
 
 [Runkit Demo](https://runkit.com/onigetoc/markdown-pre-code)
 
