@@ -1,9 +1,8 @@
 {
   "name": "markdown-pre-code",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Transform triple backtick ``` to code for code mirroir and the like.",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,7 +15,7 @@
     "backtick-to-code"
   ],
   "author": "Gino Cote - onigetoc  (https://softplug.com/)",
-  "license": "MIT",
+  "license": "ISC",
   "engines": {
     "node": ">=16.0.0"
   },
