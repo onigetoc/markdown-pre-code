@@ -1,13 +1,19 @@
-const markdownToCode = require('./transform.js')
-// import transformMarkdown from './transform.js';
+function markdownToCode(text, format) {
+  const regex = /```([\s\S]*?)```/g;
+  let transformedText = text.replace(regex, (match, codeBlock) => {
+    switch (format) {
+      case 'code':
+        return `<code>${codeBlock}</code>`;
+      case 'pre':
+        return `<pre>${codeBlock}</pre>`;
+      case 'code-pre':
+        return `<code><pre>${codeBlock}</pre></code>`;
+      default:
+        return match; // Si le format n'est pas valide, retourner le texte original
+    }
+  });
+  return transformedText;
+}
 
-const Example_Text_Markdown = "Voici un exemple de code:\n```javascript\nconsole.log('Hello, World!');\n```";
-
-const resultatCode = markdownToCode(Example_Text_Markdown, 'code');
-console.log("Option 'code':", resultatCode);
-
-const resultatPre = markdownToCode(Example_Text_Markdown, 'pre');
-console.log("Option 'pre':", resultatPre);
-
-const resultatCodePre = markdownToCode(Example_Text_Markdown, 'code-pre');
-console.log("Option 'code-pre':", resultatCodePre);
+// module.exports = transformMarkdown;
+module.exports = markdownToCode ;
