@@ -1,6 +1,6 @@
 {
   "name": "markdown-pre-code",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Transform triple backtick ``` to code for code mirroir and the like.",
   "main": "index.js",
   "type": "module",
