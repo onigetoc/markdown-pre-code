@@ -1,7 +1,7 @@
 {
   "name": "Markdown-To-Code",
   "version": "1.0.0",
-  "description": "",
+  "description": "Transform triple backtick ``` to code for code mirroir and the like.",
   "main": "index.js",
   "@type": "module",
   "scripts": {
