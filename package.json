@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Transform triple backtick ``` to code for code mirroir and the like.",
   "main": "index.js",
-  "@type": "module",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -32,8 +32,5 @@
   "directories": {
     "test": "test"
   },
-  "dependencies": {
-    "@types/node": "^18.0.6",
-    "@codemirror": "^6.65.7"
-  }
+  "dependencies": {}
 }
