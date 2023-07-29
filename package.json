@@ -18,6 +18,20 @@
   "author": "Gino Cote - onigetoc  (https://softplug.com/)",
   "@license": "ISC",
   "license": "MIT",
+  "engines": {
+    "node": ">= 18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/onigetoc/markdown-pre-code"
+  },
+  "bugs": {
+    "url": "https://github.com/onigetoc/markdown-pre-code/issues"
+  },
+  "homepage": "https://github.com/onigetocmarkdown-pre-code#readme",
+  "directories": {
+    "test": "test"
+  },
   "dependencies": {
     "@types/node": "^18.0.6",
     "@codemirror": "^6.65.7"
