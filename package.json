@@ -1,5 +1,5 @@
 {
-  "name": "Markdown-To-Code",
+  "name": "Markdown-Pre-Code",
   "version": "1.0.0",
   "description": "Transform triple backtick ``` to code for code mirroir and the like.",
   "main": "index.js",
@@ -15,7 +15,7 @@
     "chatgpt",
     "backtick-to-code"
   ],
-  "author": "Gino Cote <ginocote@gmail.com>",
+  "author": "Gino Cote - onigetoc  (https://softplug.com/)",
   "@license": "ISC",
   "license": "MIT",
   "dependencies": {
