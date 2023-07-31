@@ -1,8 +1,8 @@
 {
   "name": "markdown-pre-code",
-  "version": "1.0.18",
+  "version": "1.0.22",
   "description": "Transform triple backtick ``` to code for code mirroir and the like.",
-  "main": "index.js",
+  "main": "index.cjs",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,6 +13,7 @@
     "code",
     "chat-gpt",
     "chatgpt",
+    "code-blocks",
     "backtick-to-code"
   ],
   "author": "Gino Cote - onigetoc  (https://softplug.com/)",
@@ -31,5 +32,8 @@
   "directories": {
     "test": "test"
   },
-  "dependencies": {}
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
 }

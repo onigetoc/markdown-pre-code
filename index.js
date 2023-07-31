@@ -8,11 +8,32 @@
  * @return {string}
  */
 
-module.exports = markdownPreCode() ;
+// module.exports = markdownPreCode;
 
-console.log('IMPORT EXPORT OK');
+// console.log('IMPORT EXPORT OK');
 
-function markdownToCode(text, format) {
+// VERSION  V1
+
+// function markdownPreCode(text, format) {
+//   const regex = /```([\s\S]*?)```/g;
+//   let transformedText = text.replace(regex, (match, codeBlock) => {
+//     switch (format) {
+//       case 'code':
+//         return `<code>${codeBlock}</code>`;
+//       case 'pre':
+//         return `<pre>${codeBlock}</pre>`;
+//       case 'code-pre':
+//         return `<code><pre>${codeBlock}</pre></code>`;
+//       default:
+//         return match; // Si le format n'est pas valide, retourner le texte original
+//     }
+//   });
+//   return transformedText;
+// }
+
+// VERSION  V2
+
+const markdownPreCode = (text, format) => { 
   const regex = /```([\s\S]*?)```/g;
   let transformedText = text.replace(regex, (match, codeBlock) => {
     switch (format) {
@@ -29,4 +50,8 @@ function markdownToCode(text, format) {
   return transformedText;
 }
 
-// module.exports = markdownToCode ;
+
+
+module.exports = markdownPreCode;
+// export default markdownPreCode;
+
