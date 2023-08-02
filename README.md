@@ -4,8 +4,13 @@ Transform triple backtick to code.
 ## Insert in project
 
 ```javascript
-import markdownToCode from 'markdown-pre-code';
-//const markdownToCode = require('markdown-pre-code');
+import markdownToCode from 'markdown-pre-code'; // should use "type": "module", in package.json
+//const markdownToCode = require('markdown-pre-code');  // should remove "type": "module", in package.json or use "type": "commonjs",
+
+const Example_Text_Markdown = "Here un example de code:\n```javascript\nconsole.log('Hello, World!');\n```";
+
+const resultatCode = markdownToCode(Example_Text_Markdown, 'code');
+console.
 ```
 
 ## Basic Usage
@@ -36,8 +41,8 @@ console.log("Option 'code-pre':", resultatCodePre);  // <code><pre>javascript co
 
 [![Npm package version](https://badgen.net/npm/v/https://www.npmjs.com/package/markdown-pre-code)](https://www.npmjs.com/package/markdown-pre-code)
 
-[Test on Runkit](https://runkit.com/onigetoc/64c49ea2877428000809f9a8)
+[npmjs](https://www.npmjs.com/package/markdown-pre-code)
 
-[Runkit Demo](https://runkit.com/onigetoc/markdown-pre-code)
+[Runkit Demo](https://runkit.com/onigetoc/64cacdd83b5ffc0008c90c27)
 
 [Js fiddle Example](https://jsfiddle.net/onigetoc/jzbuve15/)
