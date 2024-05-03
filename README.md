@@ -4,12 +4,12 @@ Transform triple backtick to code.
 ## Insert in project
 
 ```javascript
-import markdownToCode from 'markdown-pre-code'; // should use "type": "module", in package.json
-//const markdownToCode = require('markdown-pre-code');  // should remove "type": "module", in package.json or use "type": "commonjs",
+import markdownPreCode from 'markdown-pre-code'; // should use "type": "module", in package.json
+//const markdownPreCode = require('markdown-pre-code');  // should remove "type": "module", in package.json or use "type": "commonjs",
 
 const Example_Text_Markdown = "Here un example de code:\n```javascript\nconsole.log('Hello, World!');\n```";
 
-const resultatCode = markdownToCode(Example_Text_Markdown, 'code');
+const resultatCode = markdownPreCode(Example_Text_Markdown, 'code');
 console.
 ```
 
@@ -24,17 +24,17 @@ const Example_Text_Markdown = "Here un example de code:\n```javascript\nconsole.
 ```
 
 ```javascript
-const resultatCode = markdownToCode(Example_Text_Markdown, 'code');
+const resultatCode = markdownPreCode(Example_Text_Markdown, 'code');
 console.log("Option 'code':", resultatCode); // <code>javascript console.log('Hello, World!');</code>
 ```
 
 ```javascript
-const resultatPre = markdownToCode(Example_Text_Markdown, 'pre');
+const resultatPre = markdownPreCode(Example_Text_Markdown, 'pre');
 console.log("Option 'pre':", resultatPre); // <pre>javascript console.log('Hello, World!');</pre>
 ```
 
 ```javascript
-const resultatCodePre = markdownToCode(Example_Text_Markdown, 'code-pre');
+const resultatCodePre = markdownPreCode(Example_Text_Markdown, 'code-pre');
 console.log("Option 'code-pre':", resultatCodePre);  // <code><pre>javascript console.log('Hello, World!');</pre></code>
 ```
 
