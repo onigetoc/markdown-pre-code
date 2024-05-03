@@ -38,7 +38,6 @@ const resultatCodePre = markdownPreCode(Example_Text_Markdown, 'code-pre');
 console.log("Option 'code-pre':", resultatCodePre);  // <code><pre>javascript console.log('Hello, World!');</pre></code>
 ```
 
-
 [![Npm package version](https://badgen.net/npm/v/https://www.npmjs.com/package/markdown-pre-code)](https://www.npmjs.com/package/markdown-pre-code)
 
 [npmjs](https://www.npmjs.com/package/markdown-pre-code)
